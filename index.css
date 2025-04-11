@@ -1,0 +1,28 @@
+:root {
+    --main-color: #3498db;
+    --font-size: 4em;
+    --headerHight: 17%;
+    --fonts: 'Arial', Helvetika, Geneva, Verdana, sans-serif;
+  }
+  
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color:  var(--main-color);
+    position: absolute;
+    width:  100%;
+    height: var(--headerHight);
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    margin-top: var(--headerHight);
+}
