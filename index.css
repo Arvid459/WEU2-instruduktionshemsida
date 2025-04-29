@@ -1,28 +1,108 @@
 :root {
-    --main-color: #3498db;
-    --font-size: 4em;
-    --headerHight: 17%;
-    --fonts: 'Arial', Helvetika, Geneva, Verdana, sans-serif;
-  }
-  
-
-html{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  --main-color: #3498db;
+  --main-color-darker: #2d79ac;
+  --footer-color: #333333;
+  --font-white-color: #f1f1f1;
+  --font-size: 4em;
+  --headerHight: 17%;
+  --fonts: "Arial", Helvetika, Geneva, Verdana, sans-serif;
 }
 
-header{
-    background-color:  var(--main-color);
-    position: absolute;
-    width:  100%;
-    height: var(--headerHight);
-    top: 0;
-    left: 0;
-    justify-content: space-around;
-    align-items: center;
+.top {
+  color: var(--font-white-color);
 }
 
-body{
-    margin-top: var(--headerHight);
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonts);
+}
+
+header {
+  background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  height: var(--headerHight);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin-top: var(--headerHight);
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex; /*grid*/
+  margin-right: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a,
+.navbar button {
+  color: var(--font-white-color);
+  padding: 10px 10px;
+  display: flex;
+  /*cursor: pointer;  */
+  text-decoration: none;
+  font-size: 1em;
+  background-color: var(--main-color);
+}
+
+.instructionsDropDown-container {
+  position: relative;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  filter: brightness(80%);
+}
+
+.navbar button {
+  background-color: var(--main-color);
+  border: none;
+}
+
+.instructionsDropDown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 150px;
+  background-color: var(--main-color);
+}
+
+.navbar i {
+  padding-left: 5%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.instructionsDropDown a {
+  display: block;
+  color: var(--font-white-color);
+  background-color: var(--main-color);
+}
+.instructionsDropDown-container {
+  padding-left: 10px;
+}
+
+footer {
+  position: absolute;
+  background-color: var(--footer-color);
+  width: 100%;
+  padding-left: 10px;
+  padding: 1em;
+  left: 0;
+}
+
+footer p {
+  color: var(--font-white-color);
+  display: inline;
+  margin-right: 1em;
 }
