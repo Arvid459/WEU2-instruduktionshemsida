@@ -1,0 +1,843 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.29f1 (8d510ca76d2b) revision 9261324'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'sv' Physical Memory: 16112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/06hugben/Documents/GitHub/WEU2-instruduktionshemsida/HBinstructions1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51187
+Successfully changed project path to: C:/Users/06hugben/Documents/GitHub/WEU2-instruduktionshemsida/HBinstructions1
+C:/Users/06hugben/Documents/GitHub/WEU2-instruduktionshemsida/HBinstructions1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9212] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2136252644 [EditorId] 2136252644 [Version] 1048832 [Id] WindowsEditor(7,WIN-7MT7ED4PFJM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9212] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2136252644 [EditorId] 2136252644 [Version] 1048832 [Id] WindowsEditor(7,WIN-7MT7ED4PFJM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 52.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/06hugben/Documents/GitHub/WEU2-instruduktionshemsida/HBinstructions1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA T500 (ID=0x1fbb)
+    Vendor:   NVIDIA
+    VRAM:     3946 MB
+    Driver:   32.0.15.6624
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.051894 seconds.
+- Loaded All Assemblies, in  1.686 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.263 seconds
+Domain Reload Profiling: 2941ms
+	BeginReloadAssembly (509ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (182ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (278ms)
+	LoadAllAssembliesAndSetupDomain (665ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (657ms)
+			TypeCache.Refresh (648ms)
+				TypeCache.ScanAssembly (591ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1015ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (707ms)
+			ProcessInitializeOnLoadMethodAttributes (228ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.813 seconds
+Refreshing native plugins compatible for Editor in 13.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.575 seconds
+Domain Reload Profiling: 5371ms
+	BeginReloadAssembly (625ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (144ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (176ms)
+	LoadAllAssembliesAndSetupDomain (1809ms)
+		LoadAssemblies (1332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (856ms)
+			TypeCache.Refresh (745ms)
+				TypeCache.ScanAssembly (672ms)
+			ScanForSourceGeneratedMonoScriptInfo (71ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1907ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (1406ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 18.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (58.0 KB). Loaded Objects now: 3586.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 10.841800 ms (FindLiveObjects: 0.993300 ms CreateObjectMapping: 0.441100 ms MarkObjects: 9.159600 ms  DeleteObjects: 0.244400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3460.849779 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_d.tga
+  artifactKey: Guid(01ce50ca5cda8d8489f2723684f0a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_d.tga using Guid(01ce50ca5cda8d8489f2723684f0a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5408371c78149c723ffa8f7373c414') in 0.307033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_s.tga
+  artifactKey: Guid(d309075cafb1a764481f2e953c146d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_s.tga using Guid(d309075cafb1a764481f2e953c146d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84918329ec3f6510acec3827fae387c') in 0.066397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Snow_n.tga
+  artifactKey: Guid(80c909f0cfd440c4685fb9820c2c88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Snow_n.tga using Guid(80c909f0cfd440c4685fb9820c2c88c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0034ec2834907afd6bc3ce0424101c') in 0.233909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_n.tga
+  artifactKey: Guid(d607b1319cf3627478fb652f952fd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_n.tga using Guid(d607b1319cf3627478fb652f952fd41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcaf89f71dec06b2ddfd5f8bf7f463a') in 0.059823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga
+  artifactKey: Guid(8fd0f8225a215f2468343706df80639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga using Guid(8fd0f8225a215f2468343706df80639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb8895c8980caf7bcdd3d4cd50f9327') in 0.073586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_s.tga
+  artifactKey: Guid(6875e7719f4e40346ac0df407c9ed9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_s.tga using Guid(6875e7719f4e40346ac0df407c9ed9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093cfc16df9d2c597046043a72d5d2dc') in 0.067431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_n.tga
+  artifactKey: Guid(6429029fa72b5434eae110c89d474458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilWeeds_n.tga using Guid(6429029fa72b5434eae110c89d474458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a11b9cffaf1f61d32a84740db354fb') in 0.063901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_d.tga
+  artifactKey: Guid(0a0f38ada3f3ea049a821baab2758c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_d.tga using Guid(0a0f38ada3f3ea049a821baab2758c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e78d12766efbc336d366e288099db90') in 0.065451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures
+  artifactKey: Guid(284dac9b2e822174ab6cbabfbd9fde5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures using Guid(284dac9b2e822174ab6cbabfbd9fde5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb80f5a1525f403af2166d33e307989') in 0.002472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_s.tga
+  artifactKey: Guid(730f7aaee8d559747b406f57e335ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilMoss_s.tga using Guid(730f7aaee8d559747b406f57e335ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11377f803cce76f4511547f4b751474b') in 0.055543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_d.tga
+  artifactKey: Guid(b29afc39cae886b4ca1931cdb9f5e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel04_d.tga using Guid(b29afc39cae886b4ca1931cdb9f5e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741d9743ca4c60a0f96f65e039dba137') in 0.069260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_n.tga
+  artifactKey: Guid(794e5d2e561448148b8175536c55b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel03_n.tga using Guid(794e5d2e561448148b8175536c55b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caf1a42a300c43f89f574f46eddf6b0') in 0.082703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_d.tga
+  artifactKey: Guid(8a06fe727d9f49649a17b6ae4dbb0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_d.tga using Guid(8a06fe727d9f49649a17b6ae4dbb0875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ac29145d8d70738397b47b3ce9c646') in 0.060294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.212383 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Burnt.mat
+  artifactKey: Guid(cd5e8cac0aee0bb46ae1cf51c32ede15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Burnt.mat using Guid(cd5e8cac0aee0bb46ae1cf51c32ede15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d83266cfdaefa351c10fcede2be566') in 1.361381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat
+  artifactKey: Guid(053fa0c86b03be449bd117d80d1eb19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat using Guid(053fa0c86b03be449bd117d80d1eb19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aa47979ac41dc579494e392eeae5f2') in 0.497880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat
+  artifactKey: Guid(fc0753ef51468564b8cba8d470eaa6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat using Guid(fc0753ef51468564b8cba8d470eaa6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67477644a22569791c939e04bc3b7ebe') in 0.066176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry02.mat
+  artifactKey: Guid(2ae122b477971bb44a80b92678821ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry02.mat using Guid(2ae122b477971bb44a80b92678821ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7beb5cd2aaa4fabffc5e1199cde584') in 0.094921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat
+  artifactKey: Guid(ed0666338014955488862f7d87e0d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat using Guid(ed0666338014955488862f7d87e0d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c1afde1a51c9985ffb0d6141344a97') in 0.065991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat
+  artifactKey: Guid(5cc129ebc7a1eff4cadd412f5b5395f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat using Guid(5cc129ebc7a1eff4cadd412f5b5395f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e064b272153a171d5bbcfd78aaac05') in 0.075639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat
+  artifactKey: Guid(22bf02a07a45bed448653493bffa3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat using Guid(22bf02a07a45bed448653493bffa3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed2d78a7f0ca4f2f4d78e77992bfc05') in 0.062266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat
+  artifactKey: Guid(c83700c3ba5cf5e42a8af018f6fd489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat using Guid(c83700c3ba5cf5e42a8af018f6fd489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1bead5e1b3f9e0cb55c7bd36d8f951') in 0.082773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat
+  artifactKey: Guid(461a36b1468ac7a439a3e7a414c11e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat using Guid(461a36b1468ac7a439a3e7a414c11e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e366c0ee9121fe8d60e31f7f7b21f50') in 0.070979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat
+  artifactKey: Guid(5213a5ef58e5fac41a7889028eda09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat using Guid(5213a5ef58e5fac41a7889028eda09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68335761abea67d82ac292d60523bd6f') in 0.071476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat
+  artifactKey: Guid(9664f0b8b9becfc40b5b338479727af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat using Guid(9664f0b8b9becfc40b5b338479727af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df97047cdc7815220fad6a885d7dd762') in 0.089312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/T_YFGM_SoilMoss_s.mat
+  artifactKey: Guid(15dadc84de5186d419bcb91f135a89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/T_YFGM_SoilMoss_s.mat using Guid(15dadc84de5186d419bcb91f135a89a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd5b430414689f8669a00bb5192306') in 0.427357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat
+  artifactKey: Guid(511dbf3047c568a40828528abe75efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat using Guid(511dbf3047c568a40828528abe75efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430baa6cb33d9d3e0c8b872bf8d988a0') in 0.129862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat
+  artifactKey: Guid(1acd45f83e71ab84c90d18f5610e235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat using Guid(1acd45f83e71ab84c90d18f5610e235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bf435cfd452a92bfc6db973325d413') in 0.075258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilMoss.mat
+  artifactKey: Guid(a218c3187ae0e0f45b6088da8f953f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilMoss.mat using Guid(a218c3187ae0e0f45b6088da8f953f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1738e4144bda348dab4cfd234e2c04') in 0.060251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat
+  artifactKey: Guid(18850af96a701e042bf42d630f0b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat using Guid(18850af96a701e042bf42d630f0b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e336a8445e34079322e041c470336cec') in 0.062476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 476.704119 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_d.tga
+  artifactKey: Guid(18f6feff6241adc44aeef8c7c1b26327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_d.tga using Guid(18f6feff6241adc44aeef8c7c1b26327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd62cef250aac333489842f939b8257') in 0.062697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga
+  artifactKey: Guid(cb39bd4bc91c216419ef2e6dc2afae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga using Guid(cb39bd4bc91c216419ef2e6dc2afae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e06fc6bd5507b7bc508d3d632fbe7b5') in 0.064414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001749 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga
+  artifactKey: Guid(341ed9a2275bda542946dcc309472f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga using Guid(341ed9a2275bda542946dcc309472f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63f15860ece8ad01397967a0caf929') in 0.058778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga
+  artifactKey: Guid(64a668b993f05a44d81dad3299580617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga using Guid(64a668b993f05a44d81dad3299580617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf43cef8306b8922031020d1372d3cdb') in 0.061232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_d.tga
+  artifactKey: Guid(8d38408652a91a549ad06164ec9f74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_d.tga using Guid(8d38408652a91a549ad06164ec9f74ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c4c229dab9a96babe6287c2954283d') in 0.083095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_d.tga
+  artifactKey: Guid(7c02398104d8e22488c48be25ddf6a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_d.tga using Guid(7c02398104d8e22488c48be25ddf6a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cdbc04b5ad18d5f4794a0c75517d59') in 0.062239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_s.tga
+  artifactKey: Guid(6155a7c71afe0ef4f99b8eb592627e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_s.tga using Guid(6155a7c71afe0ef4f99b8eb592627e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62e59c28e29c851791393e05af3bcaf') in 0.064662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_s.tga
+  artifactKey: Guid(6791db998a19c3f4e8e35844475a1dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs02_s.tga using Guid(6791db998a19c3f4e8e35844475a1dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ac22c6c592e378034e89fee107798') in 0.077904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_n.tga
+  artifactKey: Guid(ed65f44110c10a84abfaabea9d3cab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_n.tga using Guid(ed65f44110c10a84abfaabea9d3cab2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec06539850b629683e78485a9e887e') in 0.074048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga
+  artifactKey: Guid(0f7b02a6635fe744c9c28407ede09d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga using Guid(0f7b02a6635fe744c9c28407ede09d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6e091a311488ed3c521578ce25f70f') in 0.056784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_n.tga
+  artifactKey: Guid(a0cac295b66d6454488fd53dc5337c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_n.tga using Guid(a0cac295b66d6454488fd53dc5337c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589b6c103f2eb1386a559aad032dc2d5') in 0.062651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga
+  artifactKey: Guid(059e1218734df0843b511081194fc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga using Guid(059e1218734df0843b511081194fc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb8089e490a46fc4dcbfeb3bf3dcccb') in 0.063665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_s.tga
+  artifactKey: Guid(587ad15435001e04586f28ce1629e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_s.tga using Guid(587ad15435001e04586f28ce1629e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c227d93180f3d0f778cdd2084a0044d') in 0.061061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga
+  artifactKey: Guid(502f952cfa766ce4385ec69b3c1a51c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga using Guid(502f952cfa766ce4385ec69b3c1a51c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5023e30d41a450c546b3cd2bfda099') in 0.065972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga
+  artifactKey: Guid(2d4505821b5c4f348926fcad29f559af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga using Guid(2d4505821b5c4f348926fcad29f559af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842c83b9b44a4f9b25e6aa2fa4e5bbe') in 0.055266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_s.tga
+  artifactKey: Guid(f34a5c3640680b84abb07f2b4abef5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_s.tga using Guid(f34a5c3640680b84abb07f2b4abef5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b2bfdced987b23a7f3cb77d52c887a') in 0.089320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga
+  artifactKey: Guid(0b6c444d13ed153479011a14e45cfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga using Guid(0b6c444d13ed153479011a14e45cfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbdabc4cde497acf882808051a125e7') in 0.056243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga
+  artifactKey: Guid(81c423889c41ff44992f9ddf90b3aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga using Guid(81c423889c41ff44992f9ddf90b3aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fa06cf6eaad2886d53798ba259e75e') in 0.063980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Preview/P_Sphere.prefab
+  artifactKey: Guid(df06d0b0a1c9f5148af85373fe38567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Preview/P_Sphere.prefab using Guid(df06d0b0a1c9f5148af85373fe38567a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312b656c48dad4b375375f43fd7315a5') in 0.137799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Preview/Mesh_Sphere.fbx
+  artifactKey: Guid(aff69610a3fc64c4198b13456fc2c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Preview/Mesh_Sphere.fbx using Guid(aff69610a3fc64c4198b13456fc2c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bfbf92f052bba1e2d0cad6d16f748b') in 0.171862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000891 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_n.tga
+  artifactKey: Guid(4eb970ceaacb7154f9d9c3ef26596dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_n.tga using Guid(4eb970ceaacb7154f9d9c3ef26596dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59ca3c0b2d17d4cc96a521cf57a2b3e') in 0.059213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_n.tga
+  artifactKey: Guid(b54a5a26745ec57419da3accb29bc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_n.tga using Guid(b54a5a26745ec57419da3accb29bc55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c8c44d0da3ffe89a70f1b39d187090') in 0.081057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_n.tga
+  artifactKey: Guid(99b5636251ba75b409bdeec86cf5a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_n.tga using Guid(99b5636251ba75b409bdeec86cf5a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4722a884b9745df727556443e3b9c52') in 0.069323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_s.tga
+  artifactKey: Guid(e8366c04858c22d4ca3c406ebff5117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_s.tga using Guid(e8366c04858c22d4ca3c406ebff5117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e16c9b7c8f962ed5c897d72d8b5a57') in 0.064022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_n.tga
+  artifactKey: Guid(7aec7e3fe59cf0042901754e2d29dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_n.tga using Guid(7aec7e3fe59cf0042901754e2d29dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f97e0e37cb12db898d6b28ca830e3') in 0.102129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_d.tga
+  artifactKey: Guid(4c6e4837b1a6e7644b98249eb03e3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_FrozenGrass_d.tga using Guid(4c6e4837b1a6e7644b98249eb03e3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f486273b4378d978be13084d02b18ca') in 0.076946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 156.374276 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f39a706087ab2c31ad8a0999a6c80') in 0.002936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.770183 seconds.
+  path: Assets/YughuesFreeGroundMaterials/YughuesFreeGroundMaterials_HDRP.unitypackage
+  artifactKey: Guid(0c169ab9d33bbf7418d3f1e8f4c0b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/YughuesFreeGroundMaterials_HDRP.unitypackage using Guid(0c169ab9d33bbf7418d3f1e8f4c0b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096b3d8908d2879a5f91a2c264240657') in 0.003372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1736.373827 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack
+  artifactKey: Guid(d6617b9353bceb143a6b4f0696e7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack using Guid(d6617b9353bceb143a6b4f0696e7eeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05166c7da19083011f623a6ccf060388') in 0.000848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.837012 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Prefabs
+  artifactKey: Guid(df0dc2e15ca138c4a8011763f427bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Prefabs using Guid(df0dc2e15ca138c4a8011763f427bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c127ddcfa979a76595e4be7a7c7a69fe') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.157765 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-1.prefab
+  artifactKey: Guid(fa5a7eb1c03d6ba4da648e39b3f0dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-1.prefab using Guid(fa5a7eb1c03d6ba4da648e39b3f0dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ed90524f1e6e6cf4c647611956b703') in 0.178758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-3.prefab
+  artifactKey: Guid(8f68ff5d0268f164b999c138e00f3468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-3.prefab using Guid(8f68ff5d0268f164b999c138e00f3468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313e8b7b65c728c507fec6f7dc60f06a') in 0.036686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-5.prefab
+  artifactKey: Guid(c7cc5a555dc86644b84fa322352960e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Prefabs/car-5.prefab using Guid(c7cc5a555dc86644b84fa322352960e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b94e3eb54cce92a74a1dd629e4492e') in 0.025053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 79.357416 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Meshes/car-1.fbx
+  artifactKey: Guid(e1f70da310c89f1469d227c6e0a6fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Meshes/car-1.fbx using Guid(e1f70da310c89f1469d227c6e0a6fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ab8f97fe3c2227871d307317d5288') in 0.150883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Meshes/car-3.fbx
+  artifactKey: Guid(0da71fe64bfefa243aa363342acf972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Meshes/car-3.fbx using Guid(0da71fe64bfefa243aa363342acf972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9854de6f49271d283d952a86f9538c') in 0.106987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 149.802844 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Textures/cars-colors.png
+  artifactKey: Guid(3a514769c8e87bb4e9643ed9d52a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Textures/cars-colors.png using Guid(3a514769c8e87bb4e9643ed9d52a30de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ae04baf5a2782a0b61496ac1cfff25') in 0.023096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 69288.546839 seconds.
+  path: Assets/PolyRonin/Downtown Cars Pack/Textures
+  artifactKey: Guid(4368144f9d7e28c40aa132c5abdb134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolyRonin/Downtown Cars Pack/Textures using Guid(4368144f9d7e28c40aa132c5abdb134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b705e6abe55e3ed6e9cee8e55c3fcf4') in 0.019145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 90.880941 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga
+  artifactKey: Guid(40f531c1a6e817441b8ed4a0ea3ca1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga using Guid(40f531c1a6e817441b8ed4a0ea3ca1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab440d6cd7045def8c382a2c0e2e6a6e') in 0.248936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_d.tga
+  artifactKey: Guid(2682e3f9a8fda9842b24cdf0d63b5e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Salt_d.tga using Guid(2682e3f9a8fda9842b24cdf0d63b5e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc100e965385866062cc3b9af38c45f9') in 0.078465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_n.tga
+  artifactKey: Guid(6063cf4d5229a7d42baade71d038d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones01_n.tga using Guid(6063cf4d5229a7d42baade71d038d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6074ce4962de60cd09b78f0d849ddd') in 0.086503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_n.tga
+  artifactKey: Guid(bb9e6ba3181d99b4fb5a281a4b74e212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_n.tga using Guid(bb9e6ba3181d99b4fb5a281a4b74e212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d84ac2536abdf78a370a1ca5b5c5c82') in 0.066949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_s.tga
+  artifactKey: Guid(e94f0ca1418543548ba29967f1807145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_s.tga using Guid(e94f0ca1418543548ba29967f1807145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a60f39c32f246b29589a5ed32d05ae1') in 0.075524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga
+  artifactKey: Guid(f0158c9b9c1a613408ad9349d2b40d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga using Guid(f0158c9b9c1a613408ad9349d2b40d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d53c4f3952ad1c4565ab7e14728d93') in 0.098581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_d.tga
+  artifactKey: Guid(3f97d1a5bdda8764a8fe8fcab968f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_MossStones_d.tga using Guid(3f97d1a5bdda8764a8fe8fcab968f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd499aff166c5861e6ab5b838976c1272') in 0.069989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_s.tga
+  artifactKey: Guid(6b2fdfa829374314a9ad310d564dc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_s.tga using Guid(6b2fdfa829374314a9ad310d564dc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f17a42eeebb8b5fd11e2c001462287') in 0.105924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga
+  artifactKey: Guid(14dab577eea927a43bc3dd4131089312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga using Guid(14dab577eea927a43bc3dd4131089312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22851d56b047b6f8bdda582634075782') in 0.072271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_e.tga
+  artifactKey: Guid(51f08c58cadbcdb4b87d5d44565cfb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_e.tga using Guid(51f08c58cadbcdb4b87d5d44565cfb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f114c2064b4802d200f9b1f23d3c79d') in 0.087569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga
+  artifactKey: Guid(37b941f29bc240347ad7b5f87abae36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga using Guid(37b941f29bc240347ad7b5f87abae36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6503e667e981760eff8be66861fabf') in 0.113154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 328.704916 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3cb7bf0acfedc14459f047a1a438a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3cb7bf0acfedc14459f047a1a438a54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d67325f1a583e2f4f5aef158479800') in 0.066260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 804.159916 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2f868a38dfb3a4c4fb2bf7f8ee20369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/Lightmap-0_comp_dir.png using Guid(2f868a38dfb3a4c4fb2bf7f8ee20369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c783c744488bab1771a7644e9402a3') in 0.174704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.440083 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
+  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e30441738ce2d81336bfba568d440a') in 0.068202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1ff79a0a226e5c2ea61a9a259ebeb5') in 0.050932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.587953 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr
+  artifactKey: Guid(04939eb1bdbe05b4799d05ae249f280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Preview/Sc_Preview/ReflectionProbe-0.exr using Guid(04939eb1bdbe05b4799d05ae249f280a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e5a5ce78538314b852c043ddb8f22a') in 0.240942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3325.911150 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/NewLayer.terrainlayer
+  artifactKey: Guid(cd1927a1d0559dc45a42ab5aeec8236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/NewLayer.terrainlayer using Guid(cd1927a1d0559dc45a42ab5aeec8236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40828e436d4c1ff697d0fabdbaaaf567') in 0.128734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
