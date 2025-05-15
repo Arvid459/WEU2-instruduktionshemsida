@@ -40,90 +40,89 @@
     </nav>
   </header>
   <body>
-    <div class="about">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        delectus nihil ullam maxime quia perferendis doloribus possimus debitis,
-        suscipit culpa accusamus dicta ab consequatur molestias asperiores
-        soluta, autem molestiae numquam.
-      </p>
+    <div class="form">
+      <form
+        action="mailto:hugo.benjaminsson1@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name</label>
+        <input
+          type="text"
+          required
+          id="name"
+          name="name"
+          placeholder="Name..."
+          pattern="^[A-Za-z\s\-]{2,40}$"
+          title="Enter a valid name thats shorter than 40 letters"
+        />
+
+        <label for="adress">Adress</label>
+        <input
+          type="text"
+          required
+          id="adress"
+          name="adress"
+          placeholder="Adress..."
+          pattern="^[A-Za-z0-9\s\-,.]{5,50}$"
+          title="Enter a valid adress thats shorter than 50 letters"
+        />
+
+        <label for="pNumber">Phone number</label>
+        <input
+          type="number"
+          required
+          id="pNumber"
+          name="pNumber"
+          placeholder="Phone number..."
+          title="Enter a real Phone number"
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          required
+          id="email"
+          name="email"
+          placeholder="Email..."
+          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          title="Enter a valid email address, e.g., name@example.com"
+        />
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          required
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input id="submit" type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 
   <footer>
-    <p id="lastUpdate">last updated:</p>
-    <p>Webbmaster: Hugo Benjaminsson</p>
+    <div class="footerContainer">
+      <div class="footerTop">
+        <p>&copy; 2025 HBinstructions. All rights reserved.</p>
+        <nav class="footerNav">
+          <a href="/copyright.html">Copytight</a>
+          <a href="/contacts.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footerBottom">
+        <p>
+          Last updated: <time id="lastUpdate"></time> &nbsp; | &nbsp; Website by
+          <a
+            href="https://hugo-benjaminsson-cv.netlify.app/om"
+            target="_blank"
+            rel="noopener"
+            >Hugo Benjaminsson</a
+          >
+        </p>
+      </div>
+    </div>
   </footer>
 </html>
