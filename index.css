@@ -1,0 +1,240 @@
+:root {
+  --main-color: #3498db;
+  --main-color-darker: #2d79ac;
+  --footer-color: #111;
+  --font-white-color: #f1f1f1;
+  --content-color: #f2f2f2;
+  --font-size: 4em;
+  --headerHight: 17%;
+  --footerHeight: 5.3em;
+  --fonts: "Arial", Helvetika, Geneva, Verdana, sans-serif;
+}
+
+.top {
+  color: var(--font-white-color);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonts);
+}
+
+header {
+  background-color: var(--main-color);
+  position: fixed;
+  width: 100%;
+  height: var(--headerHight);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding-top: var(--headerHight);
+  overflow-x: hidden;
+  padding-bottom: calc(var(--footerHeight));
+}
+
+.navbar {
+  display: flex; /*grid*/
+  margin-right: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a,
+.navbar button {
+  color: var(--font-white-color);
+  padding: 10px 10px;
+  display: flex;
+  /*cursor: pointer;  */
+  text-decoration: none;
+  font-size: 1em;
+  background-color: var(--main-color);
+}
+
+.instructionsDropDown-container {
+  position: relative;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.navbar button {
+  background-color: var(--main-color);
+  border: none;
+}
+
+.instructionsDropDown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  min-width: 150px;
+  background-color: var(--main-color);
+}
+
+.navbar i {
+  padding-left: 5%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.instructionsDropDown a {
+  display: block;
+  color: var(--font-white-color);
+  background-color: var(--main-color);
+}
+.instructionsDropDown-container {
+  padding-left: 10px;
+}
+/*
+footer {
+  position: fixed;
+  background-color: var(--footer-color);
+  width: 100%;
+  padding-left: 10px;
+  padding: 1em;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  margin-top: var(--footerHeight);
+}
+
+footer p {
+  color: var(--font-white-color);
+  display: inline;
+  margin-right: 1em;
+  height: 1em;
+}*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: var(--footer-color);
+  color: #ccc;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  height: var(--footerHeight);
+}
+
+.footerContainer {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/*
+.footerTop {
+  flex: 1 1 100%;
+}
+*/
+
+.footerTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.footerNav {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footerNav a {
+  color: #888;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footerBottom {
+  flex: 1 1 100%;
+  color: #aaa;
+  font-size: 0.85em;
+}
+
+.footerBottom a {
+  color: #888;
+  text-decoration: none;
+}
+
+/* --- Instructions --- */
+.instructionSection {
+  width: 95%;
+  align-items: center;
+  margin: auto;
+  background-color: var(--content-color);
+  box-shadow: #3498db;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-radius: 10px;
+}
+
+.instructionSection h2 {
+  text-align: center;
+}
+
+.instructionSection img {
+  width: 90%;
+  height: auto;
+}
+
+/*   copyright   */
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#submit {
+  background-color: var(--main-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: var(--main-color-darker);
+}
+
+.form {
+  border-radius: 10px;
+  background-color: var(--content-color);
+  padding: 20px;
+}
+
+input:invalid:focus {
+  /*if not, it shows error on all on start*/
+  border: 2px solid red;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid red;
+}
+
+input:valid:not(:placeholder-shown) {
+  border: 2px solid green;
+}
