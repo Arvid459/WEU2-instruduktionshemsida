@@ -1,100 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8" />
     <title>HBinstructions</title>
     <script src="index.js" defer></script>
-    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    >
+    />
   </head>
   <body>
-      <header>
-    <div class="top">
-      <h1>HB instructions</h1>
-    </div>
-    <nav class="navbar">
-      <a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a>
-      <div class="instructionsDropDown-container">
-        <button class="instructionsBtn">
-          Instructions<i class="fa fa-caret-down"></i>
-        </button>
-        <div class="instructionsDropDown">
-          <a href="instruction1.html">Setup</a>
-          <a href="instruction2.html">Enviroment</a>
-          <a href="instruction3.html">3D-design</a>
-          <!--world generation-->
-          <a href="instruction4.html">User</a>
-          <!--and camera-->
-          <a href="instruction5.html">Interaction</a>
-          <a href="instruction6.html">Comming soon</a>
+    <header>
+      <div class="top">
+        <h1>HB instructions</h1>
+      </div>
+      <nav class="navbar">
+        <a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a>
+        <div class="instructionsDropDown-container">
+          <button class="instructionsBtn">
+            Instructions<i class="fa fa-caret-down"></i>
+          </button>
+          <div class="instructionsDropDown">
+            <a href="instruction1.html">Setup</a>
+            <a href="instruction2.html">Enviroment</a>
+            <a href="instruction3.html">3D-design</a>
+            <!--world generation-->
+            <a href="instruction4.html">User</a>
+            <!--and camera-->
+            <a href="instruction5.html">Interaction</a>
+            <a href="instruction6.html">Comming soon</a>
+          </div>
         </div>
-      </div>
-      <div id="aCopy">
-      <a href="copyright.html"
-        >Copytight <i class="fa-solid fa-copyright"></i
-      ></a>
-      </div>
-      <div id="aContact">
-      <a href="contacts.html"
-        >Contacts <i class="fa-solid fa-paper-plane"></i
-      ></a>
-      </div>
-    </nav>
-  </header>
+        <div id="aCopy">
+          <a href="copyright.html"
+            >Copytight <i class="fa-solid fa-copyright"></i
+          ></a>
+        </div>
+        <div id="aContact">
+          <a href="contacts.html"
+            >Contacts <i class="fa-solid fa-paper-plane"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
 
     <div class="instructionSection">
-        <h2>3D design</h2>
-        <p>In this chapter i will only learn basic 3D design in unity, if you want to learn advanced 3D design press this <a href="https://unity.com/learn/professionals/course-catalog">link.</a></p>
+      <h2>3D design</h2>
+      <p>
+        In this chapter i will only learn basic 3D design in unity, if you want
+        to learn advanced 3D design press this
+        <a href="https://unity.com/learn/professionals/course-catalog">link.</a>
+      </p>
 
       <h3>Terrain</h3>
-        <p>The first step into build a 3D open world is by creating the ground wich is done by the following steps:</p>
-        <ol>
-            <li>Right click on the Hierarchy window</li>
-            <li>go to 3D-object > Terrain</li>
-        </ol>     
-        <p>In the inspector window you get a few option to use when styling your enviroment</p>
+      <p>
+        The first step into build a 3D open world is by creating the ground wich
+        is done by the following steps:
+      </p>
+      <ol>
+        <li>Right click on the Hierarchy window</li>
+        <li>go to 3D-object > Terrain</li>
+      </ol>
+      <p>
+        In the inspector window you get a few option to use when styling your
+        enviroment
+      </p>
 
-        <ol>
-            <li>
-                Create Neighbor Terrains, if you want a lage map you could just press an neighboring square and it will expand your map
-            </li>
-            <li>
-                Paint Terrain, this tool is used to style terrain topology, material, texture
-            </li>
-            <li>Paint Trees, this tool is used to style and place down trees both individualy and mass placement</li>
-            <li>Paint Details, this tool works just like Paont Trees and lets you place out singel or multiple objects</li>
-            <li>Terrain Settings, here you could enable shadow, resolution, materials etc</li>
-        </ol>
-        <img src="/Pictures/Skarmbild (214).PNG" alt="picture of the terrain editor the 5 tools highlighted">
-       <h4>Paint Terrain - tool</h4>
-       <p>Right beneth the paint Terrain button markt in red is a action bar where you could chose how you want to affect the terrain topology, if you want to higher or lower the ground or maby flaten in out. </p>
-       <p>Underneth those option you has the paint tool that work in a similar way in all the other terrain styling tools, you get to set your brush stucture, brush size and opacity and then you drag it around the map and press/hold down every time you want to apply the effect</p>
-       <img src="/Pictures/Skarmbild (200).PNG" alt="picture of the terrain editorand the tools highlighted">
-       
-        <p>The "Paint Texture" is maby the one that stands out from the rest of the actions most. Additional to the brush you also have to make a terrain layer meaning that you need to add a texture for your brush. They way you are doing that is as following:</p>
-        <ol>
-          <li>
-            Press the "Edit Terrain Layers" button
-          </li>
-          <li>
-          Press "add layer" - now you should have gotten a popup window loking simmilar to that in the picture below
-          </li>
-            
-          <li>
-            if you alredy has textures you will se them her and can by dubbletaping one chose that texture
-          </li>
-        </ol>
-                  <p>Note/tip/hint: If their not popping up any textures its most likely that you havent any textures downloded but dont wory, its easy to fix, just follow this <a href="https://polyhaven.com/textures">link</a> to find downloadaple textures and so much more</p>
+      <ol>
+        <li>
+          Create Neighbor Terrains, if you want a lage map you could just press
+          an neighboring square and it will expand your map
+        </li>
+        <li>
+          Paint Terrain, this tool is used to style terrain topology, material,
+          texture
+        </li>
+        <li>
+          Paint Trees, this tool is used to style and place down trees both
+          individualy and mass placement
+        </li>
+        <li>
+          Paint Details, this tool works just like Paont Trees and lets you
+          place out singel or multiple objects
+        </li>
+        <li>
+          Terrain Settings, here you could enable shadow, resolution, materials
+          etc
+        </li>
+      </ol>
+      <img
+        src="/Pictures/Skarmbild(214).PNG"
+        alt="picture of the terrain editor the 5 tools highlighted"
+      />
+      <h4>Paint Terrain - tool</h4>
+      <p>
+        Right beneth the paint Terrain button markt in red is a action bar where
+        you could chose how you want to affect the terrain topology, if you want
+        to higher or lower the ground or maby flaten in out.
+      </p>
+      <p>
+        Underneth those option you has the paint tool that work in a similar way
+        in all the other terrain styling tools, you get to set your brush
+        stucture, brush size and opacity and then you drag it around the map and
+        press/hold down every time you want to apply the effect
+      </p>
+      <img
+        src="/Pictures/Skarmbild(200).PNG"
+        alt="picture of the terrain editorand the tools highlighted"
+      />
 
-       <img src="/Pictures/Skarmbild (221).PNG" alt="Picture of edit terrain layout window">
+      <p>
+        The "Paint Texture" is maby the one that stands out from the rest of the
+        actions most. Additional to the brush you also have to make a terrain
+        layer meaning that you need to add a texture for your brush. They way
+        you are doing that is as following:
+      </p>
+      <ol>
+        <li>Press the "Edit Terrain Layers" button</li>
+        <li>
+          Press "add layer" - now you should have gotten a popup window loking
+          simmilar to that in the picture below
+        </li>
 
+        <li>
+          if you alredy has textures you will se them her and can by
+          dubbletaping one chose that texture
+        </li>
+      </ol>
+      <p>
+        Note/tip/hint: If their not popping up any textures its most likely that
+        you havent any textures downloded but dont wory, its easy to fix, just
+        follow this <a href="https://polyhaven.com/textures">link</a> to find
+        downloadaple textures and so much more
+      </p>
+
+      <img
+        src="/Pictures/Skarmbild(221).PNG"
+        alt="Picture of edit terrain layout window"
+      />
 
       <h3>objects</h3>
       <p>
-        If you want to build easy objects by yourself Unity has a few built in objects that you could acces through the following steps:
+        If you want to build easy objects by yourself Unity has a few built in
+        objects that you could acces through the following steps:
       </p>
       <ol>
         <li>right click on the hierarchy window</li>
@@ -102,52 +151,68 @@
         <li>chose what kind of object you want</li>
       </ol>
 
-      <p>As with most of the objects in Unity you could also inport them from 3d partys to speed up the design phase</p>
-      <p>But whatever you make the objects yourself or from a website you will be able to make plenty of modifications in the inspector window and here follow three of what i think is the most usefull ones:</p>
+      <p>
+        As with most of the objects in Unity you could also inport them from 3d
+        partys to speed up the design phase
+      </p>
+      <p>
+        But whatever you make the objects yourself or from a website you will be
+        able to make plenty of modifications in the inspector window and here
+        follow three of what i think is the most usefull ones:
+      </p>
       <ul>
         <li>
-          Transform - here you could change the position, rotation and scale of your object
+          Transform - here you could change the position, rotation and scale of
+          your object
         </li>
         <li>
-          Mesh Renderer - most of the settings here you could just leave but som intresting is the shadows and lightning
+          Mesh Renderer - most of the settings here you could just leave but som
+          intresting is the shadows and lightning
         </li>
         <li>
-          Box Collider - uses to determine how two objects will react when they colide
+          Box Collider - uses to determine how two objects will react when they
+          colide
         </li>
       </ul>
-               <img src="/Pictures/Skarmbild (223).PNG" alt="Picture of how to create a qube">
+      <img
+        src="/Pictures/Skarmbild(223).PNG"
+        alt="Picture of how to create a qube"
+      />
 
       <!-- Unity Editor is your workspace and its here you acully makes your prodjects-->
-       <h3>texture</h3>
+      <h3>texture</h3>
       <p>
-        The object has still a boring color and but fixing it is as easy as to navigate to the materials in your project window and draging the material you want onto the object and it will be automaticly changed
+        The object has still a boring color and but fixing it is as easy as to
+        navigate to the materials in your project window and draging the
+        material you want onto the object and it will be automaticly changed
       </p>
-                     <img src="/Pictures/Skarmbild (224).PNG" alt="Picture of the fixing textures">
-
+      <img
+        src="/Pictures/Skarmbild(224).PNG"
+        alt="Picture of the fixing textures"
+      />
     </div>
     <footer>
-    <div class="footerContainer">
-      <div class="footerTop">
-        <p>&copy; 2025 HBinstructions. All rights reserved.</p>
-        <nav class="footerNav">
-          <a href="/copyright.html">Copytight</a>
-          <a href="/contacts.html">Contact</a>
-        </nav>
+      <div class="footerContainer">
+        <div class="footerTop">
+          <p>&copy; 2025 HBinstructions. All rights reserved.</p>
+          <nav class="footerNav">
+            <a href="/copyright.html">Copytight</a>
+            <a href="/contacts.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footerBottom">
+          <p>
+            Last updated: <span id="lastUpdate"></span> &nbsp; | &nbsp; Website
+            by
+            <a
+              href="https://hugo-benjaminsson-cv.netlify.app/om"
+              target="_blank"
+              rel="noopener"
+              >Hugo Benjaminsson</a
+            >
+          </p>
+        </div>
       </div>
-      <div class="footerBottom">
-        <p>
-          Last updated: <div id="lastUpdate"></div> &nbsp; | &nbsp; Website by
-          <a
-            href="https://hugo-benjaminsson-cv.netlify.app/om"
-            target="_blank"
-            rel="noopener"
-            >Hugo Benjaminsson</a
-          >
-        </p>
-      </div>
-    </div>
-  </footer>
+    </footer>
   </body>
-
-  
 </html>
