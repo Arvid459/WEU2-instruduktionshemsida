@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HBinstructions</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+      <header>
+    <div class="top">
+      <h1>HB instructions</h1>
+    </div>
+    <nav class="navbar">
+      <a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a>
+      <div class="instructionsDropDown-container">
+        <button class="instructionsBtn">
+          Instructions<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="instructionsDropDown">
+          <a href="instruction1.html">Setup</a>
+          <a href="instruction2.html">Enviroment</a>
+          <a href="instruction3.html">3D-design</a>
+          <!--world generation-->
+          <a href="instruction4.html">User</a>
+          <!--and camera-->
+          <a href="instruction5.html">Interaction</a>
+          <a href="instruction6.html">Comming soon</a>
+        </div>
+      </div>
+      <div id="aCopy">
+      <a href="copyright.html"
+        >Copytight <i class="fa-solid fa-copyright"></i
+      ></a>
+      </div>
+      <div id="aContact">
+      <a href="contacts.html"
+        >Contacts <i class="fa-solid fa-paper-plane"></i
+      ></a>
+      </div>
+      </div>
+    </nav>
+  </header>
+    <div class="instructionSection">
+        <h2>User</h2>
+        <p>In this chapter you will be learnd how to create an basic 3D user in unity with moving bodybarts, controlls and a camer that will follow the user</p>
+
+      <h3>Physical body</h3>        
+            <ol>
+            <li>Right click on the Hierarchy window</li>
+            <li>go to 3D-object and creathe a Capsule as the main body</li>
+            <li>Repeatenthis steps with cylinders as arms and leggs and a creathe as a head</li>
+            <li>In the Hierarchy window press right key and create an "Empty GameObject" and name it player</li>
+            <li>move all body parts into the player gameobject by tragin them into the folder</li>
+        </ol>     
+        <p>In the inspector window you get a few option to use when styling your enviroment</p>
+
+        <img src="/Pictures/Skärmbild (226).PNG" alt="picture of the an easy built body">
+      
+       
+
+      <h3>Movement</h1>
+        <p>To add movement logic you just add another conponent with the type script and in that code document you inplement the following code</p>
+<div class="code-container">
+  <button class="copy-button" onclick="copyCode(this)">Copy</button>
+  <pre><code>
+using UnityEngine;
+
+public class SimplePlayerController : MonoBehaviour
+{
+    public float moveSpeed = 5f;
+    public float rotationSpeed = 720f;
+
+    void Update()
+    {
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+        Vector3 direction = new Vector3(h, 0, v).normalized;
+
+        if (direction.magnitude >= 0.1f)
+        {
+            // Move the player
+            transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
+
+            // Rotate the player
+            Quaternion toRotation = Quaternion.LookRotation(direction, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
+    }
+}
+
+  </code></pre>
+</div>
+<h3>Camera</h3>
+<h3>All in one</h3>
+<p>If you want to make it easy for you you could just inplement a person asset you like from polyhaven or freepbr</p>
+    <footer>
+    <div class="footerContainer">
+      <div class="footerTop">
+        <p>&copy; 2025 HBinstructions. All rights reserved.</p>
+        <nav class="footerNav">
+          <a href="/copyright.html">Copytight</a>
+          <a href="/contacts.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footerBottom">
+        <p>
+          Last updated: <time id="lastUpdate"></time> &nbsp; | &nbsp; Website by
+          <a
+            href="https://hugo-benjaminsson-cv.netlify.app/om"
+            target="_blank"
+            rel="noopener"
+            >Hugo Benjaminsson</a
+          >
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>

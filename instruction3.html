@@ -10,7 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
   </head>
-  <header>
+  <body>
+      <header>
     <div class="top">
       <h1>HB instructions</h1>
     </div>
@@ -31,26 +32,31 @@
           <a href="instruction6.html">Comming soon</a>
         </div>
       </div>
+      <div id="aCopy">
       <a href="copyright.html"
         >Copytight <i class="fa-solid fa-copyright"></i
       ></a>
+      </div>
+      <div id="aContact">
       <a href="contacts.html"
         >Contacts <i class="fa-solid fa-paper-plane"></i
       ></a>
+      </div>
+      </div>
     </nav>
   </header>
-  <body>
+
     <div class="instructionSection">
         <h2>3D design</h2>
         <p>In this chapter i will only learn basic 3D design in unity, if you want to learn advanced 3D design press this <a href="https://unity.com/learn/professionals/course-catalog">link.</a></p>
 
       <h3>Terrain</h3>
-        <p>One way to build a 3D open world is by </p>
+        <p>The first step into build a 3D open world is by creating the ground wich is done by the following steps:</p>
         <ol>
             <li>Right click on the Hierarchy window</li>
             <li>go to 3D-object > Terrain</li>
         </ol>     
-        <p>in the inspector window you get a few option to use when styling your enviroment</p>
+        <p>In the inspector window you get a few option to use when styling your enviroment</p>
 
         <ol>
             <li>
@@ -61,71 +67,65 @@
             </li>
             <li>Paint Trees, this tool is used to style and place down trees both individualy and mass placement</li>
             <li>Paint Details, this tool works just like Paont Trees and lets you place out singel or multiple objects</li>
-            <li>Terrain Settings</li>
+            <li>Terrain Settings, here you could enable shadow, resolution, materials etc</li>
         </ol>
-        <img src="/Pictures/Skärmbild (214).PNG" alt="picture of the editor enviroment with the Viewport window highlighted">
-       <h4>Scene view - tools</h4>
-       <ol>
-        <li>Hand Tool &#10088;Q&#10089; - move across your project by dragging the scene around.</li>
-        <li>Move Tool &#10088;W&#10089; - press an object and get arrows in X, Y and Z axis and move the object in respective direction by draging in the arrows</li>
-        <li>Rotate Tool &#10088;E&#10089; - you press a objects and X, Y, Z orbits will be shown who cou can drag to change the rotation of marked object</li>
-        <li>Scale Tool &#10088;R&#10089; - works like the move tool, you press a objects and X, Y, Z arrows but when you drag an axis it will scale the object in respective directions</li>
-        <li>Rect Tool &#10088;T&#10089; - a tool that combines the move, rotate and scale tool idle for 2D use</li>
-        <li>Transform Tool &#10088;T&#10089; - works like rect tool and combine the move, rotate and scale tool but is idle for 3D use</li>
-        <li>Display modes - change specificaly what containt you want to focus at, you could get a mesh formate of your world, you could use it to easyer see and work with lightning etc.</li>
-        <li>2D/3D - toggle between 2D and 3D view</li>
-        <li>Lights on/off - on shows in game lights with shadows and off for easy building enviroment</li>
-        <li>Audio on/off</li>
-        <li>Fog effects on/off makes you able turn off fog for easyer development</li>
-        <li>Camera settings, camera with, speed etc</li>
-       </ol>
-       <img src="/Pictures/Skärmbild (211)b.PNG" alt="picture of the scene view with the tools 1-12 highlighted">
-       <h4>Scene view - how to move</h4>
-       <ul>
-        <li>Move around by holding down right mouse button and navigation with WASD with aditional QE to go up and down (you can speed up your movement by holding down shift button)</li>
-        <li>Drag around by holding down scroll wheel on mouse while moving the mouse</li>
-        <li>Zoom in/out by using the scrollwheel or moving two fingers towards and against each other axross the mousepad</li>
-        <li>Focus on object by selectiong an object and press F the program will automaticly give you a good perspective of the object</li>
-       </ul>
-       <h4>Game view</h4>
-       <ol>
-        <li>PC or mobile device</li>
-        <li>If you have multiple cameras you can shose wich camera you wan to see</li>
-        <li>Change visual quality</li>
-        <li>Scale/Zoom is/out &#10088;try keeping it so that scale 1x looks good&#10089;</li>
-        <li>Here you could shose the renderd quality, v-sync on/off etc. good when you will do preformance testes.</li>
-       </ol>
-       <img src="/Pictures/Skärmbild (212).PNG" alt="Picture of the gamr view with the tools 1-5 highlighted">
+        <img src="/Pictures/Skärmbild (214).PNG" alt="picture of the terrain editor the 5 tools highlighted">
+       <h4>Paint Terrain - tool</h4>
+       <p>Right beneth the paint Terrain button markt in red is a action bar where you could chose how you want to affect the terrain topology, if you want to higher or lower the ground or maby flaten in out. </p>
+       <p>Underneth those option you has the paint tool that work in a similar way in all the other terrain styling tools, you get to set your brush stucture, brush size and opacity and then you drag it around the map and press/hold down every time you want to apply the effect</p>
+       <img src="/Pictures/Skärmbild (200).PNG" alt="picture of the terrain editorand the tools highlighted">
+       
+        <p>The "Paint Texture" is maby the one that stands out from the rest of the actions most. Additional to the brush you also have to make a terrain layer meaning that you need to add a texture for your brush. They way you are doing that is as following:</p>
+        <ol>
+          <li>
+            Press the "Edit Terrain Layers" button
+          </li>
+          <li>
+          Press "add layer"
+          </li>
+            <p>now you should have gotten a popup window loking simmilar to that in the picture below</p>
+          <li>
+            if you alredy has textures you will se them her and can by dubbletaping one chose that texture
+          </li>
+          <p>Note/tip/hint: If their not popping up any textures its most likely that you havent any textures downloded but dont wory, its easy to fix, just follow this <a href="https://polyhaven.com/textures">link</a> to find downloadaple textures and so much more</p>
+        </ol>
+       <img src="/Pictures/Skärmbild (221).PNG" alt="Picture of edit terrain layout window">
 
-       <p>
-        2. Press on the verion to the operating system that you currently are
-        running
-      </p>
-      <p>
-        3. When the file it fully downloaded you will se it in the up-right
-        corner of your browser and you will press it to run the installer
-      </p>
 
       <h3>objects</h1>
       <p>
-        1. If you dont alredy have a Unityacount you need to create one but if
-        you alredy have one its just to log in
+        If you want to build easy objects by yourself Unity has a few built in objects that you could acces through the following steps:
       </p>
+      <ol>
+        <li>right click on the hierarchy window</li>
+        <li>navigate to "3D-object</li>
+        <li>chose what kind of object you want</li>
+      </ol>
 
-      <h3>With most of this things you could also inport from 3d partys to speed up the design page</h1>
+      <p>As with most of the objects in Unity you could also inport them from 3d partys to speed up the design phase</p>
+      <p>But whatever you make the objects yourself or from a website you will be able to make plenty of modifications in the inspector window and here follow three of what i think is the most usefull ones:</p>
+      <ul>
+        <li>
+          Transform - here you could change the position, rotation and scale of your object
+        </li>
+        <li>
+          Mesh Renderer - most of the settings here you could just leave but som intresting is the shadows and lightning
+        </li>
+        <li>
+          Box Collider - uses to determine how two objects will react when they colide
+        </li>
+      </ul>
+               <img src="/Pictures/Skärmbild (223).PNG" alt="Picture of how to create a qube">
+
       <!-- Unity Editor is your workspace and its here you acully makes your prodjects-->
+       <h3>texture</h3>
       <p>
-        1. In Unity Hub go to the Installs tab and than press on "Install Editor
+        The object has still a boring color and but fixing it is as easy as to navigate to the materials in your project window and draging the material you want onto the object and it will be automaticly changed
       </p>
-      <p>
-        2. Choose version, i prefer the latest version becuse of it... but you
-        can also chose an older version for fever buggs
-      </p>
-      <p>3. Press install</p>
-    </div>
-  </body>
+                     <img src="/Pictures/Skärmbild (224).PNG" alt="Picture of the fixing textures">
 
-  <footer>
+    </div>
+    <footer>
     <div class="footerContainer">
       <div class="footerTop">
         <p>&copy; 2025 HBinstructions. All rights reserved.</p>
@@ -147,4 +147,7 @@
       </div>
     </div>
   </footer>
+  </body>
+
+  
 </html>

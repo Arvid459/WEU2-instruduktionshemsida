@@ -58,14 +58,12 @@ submitForm.onclick = async function (e) {
     if (data.status === "success") {
       submitForm.value = "Message sent!";
 
-      // Clear form fields
       document.getElementById("name").value = "";
       document.getElementById("pNumber").value = "";
       document.getElementById("adress").value = "";
       document.getElementById("email").value = "";
       document.getElementById("subject").value = "";
 
-      // Wait 5 seconds, then reset button
       setTimeout(() => {
         submitForm.value = "Submit";
       }, 2000);
@@ -88,9 +86,18 @@ function changeVisibility(e) {
   e.style.display = e.style.display === "block" ? "none" : "block";
 }
 
-/*
-
-
-
-
-*/
+function copyCode(button) {
+  const code = button.nextElementSibling.innerText;
+  navigator.clipboard
+    .writeText(code)
+    .then(() => {
+      const originalText = button.textContent;
+      button.textContent = "Copied!";
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 1500);
+    })
+    .catch((err) => {
+      console.error("Failed to copy: ", err);
+    });
+}
