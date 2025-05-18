@@ -12,7 +12,12 @@
 
 .top {
   color: var(--font-white-color);
+    display: flex;
+  align-items: center;
+  gap: 1rem
 }
+
+
 
 html {
   margin: 0;
@@ -206,6 +211,12 @@ footer {
   background: var(--main-color-darker);
 }
 
+video {
+  width: clamp(50px, 95%, 900px);
+  height: auto;
+  display: block;      
+  margin: 0 auto;  }
+
 /*   copyright   */
 
 input,
@@ -333,6 +344,16 @@ input:valid:not(:placeholder-shown) {
 }
 
 /*    INDEX     */
+
+.roundLogo {
+  width: 4em; 
+  height: 4em;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--main-color); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
 .instruinstructionsa {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -387,6 +408,10 @@ input:valid:not(:placeholder-shown) {
 
 .instruction.onea {
   background-image: url("https://europe1.discourse-cdn.com/unity/original/4X/7/0/3/703e85212ffe813f10ba5471e1a45b785ae89d7d.gif");
+}
+
+.instruction.threea {
+  background-image: url("/Pictures/instruktion3.gif");
 }
 
 .instruction .filter {

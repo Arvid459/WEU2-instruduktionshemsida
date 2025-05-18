@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <title>HBinstructions</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    >
+  </head>
+
+  <body>
+    <header>
+      <div class="top">
+                <div class="logoContainer">
+          <img src="/Pictures/HB-logo.png" alt="HBinstructions Logo" class="roundLogo">
+        </div>       
+        <h1>HB instructions</h1>
+      </div>
+      <nav class="navbar">
+        <a href="index.html">Home <i class="fa-solid fa-house-chimney"></i></a>
+        <div class="instructionsDropDown-container">
+          <button class="instructionsBtn">
+            Instructions<i class="fa fa-caret-down"></i>
+          </button>
+          <div class="instructionsDropDown">
+            <a href="instruction1.html">Setup</a>
+            <a href="instruction2.html">Enviroment</a>
+            <a href="instruction3.html">3D-design</a>
+            <!--world generation-->
+            <a href="instruction4.html">User</a>
+            <!--and camera-->
+            <a href="instruction5.html">Interaction</a>
+            <a href="instruction6.html">Car Game</a>
+          </div>
+        </div>
+        <div id="aCopy">
+          <a href="copyright.html"
+            >Copytight <i class="fa-solid fa-copyright"></i
+          ></a>
+        </div>
+        <div id="aContact">
+          <a href="contacts.html"
+            >Contacts <i class="fa-solid fa-paper-plane"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <div class="instructionSection">
+      <h2>Make your own Car Game</h2>
+      <p>
+        Now that you have learn the basics of Unity you will be able to make your own open world car driving game and becuse we have alredy have gotten into all the parts in detail in the previuse instructions we will be only gong through it transient and if you get stuck just go back to the earlier more detaild instrucitons.
+      </p>
+      <h3>Step 1: Project Setup</h3>
+      <ol>
+        <li>Create a new Unity 3D project.</li>
+        <li>Set up your scenes and folders.</li>
+        <li>Import necessary assets or make your own.</li>
+      </ol>
+
+      <h3>Step 2: Environment</h3>
+      <ol>
+        <li>Create a terrain using Unitys Terrain Tool.</li>
+        <li>Paint the terrain with textures and raise/lower areas for variation.</li>
+        <li>Place roads, trees, buildings, and properties for a more realistic world.</li>
+        <li>Extra: Inplement colliders for every object to make more realistic.</li>
+      </ol>
+
+      <h3>Step 3: Add a Car</h3>
+      <ol>
+        <li>Import a 3D car model or build your own.</li>
+        <li>Create a car movement script.</li>
+        <li>Add a Rigidbody for physics, gravity etc.</li>
+        <li>Create and assign a camera that follows the car.</li>
+        <li>Disable the car control script by default until the player enters.</li>
+      </ol>
+
+      <h3>Step 4: Add a Player</h3>
+      <ol>
+        <li>Create a player GameObject with Rigidbody, and collider.</li>
+        <li>create a movement script.</li>
+        <li>Add a camera that follows the player.</li>
+      </ol>
+
+      <h3>Step 5: Interact with the Car</h3>
+      <ol>
+        <li>Set up a trigger collider on the car.</li>
+        <li>Create the script that handle nerby player detection.</li>
+        <li>Create a car movement script and Rigibody for physics</li>
+        <li>Create a script to manage entering and exiting the car.</li>
+      </ol>
+
+      <h3>Step 7: Testing</h3>
+        <p>Make shure that everything works as predicted if not go back a few steps trying to find where the problem is </p>
+      <p>
+
+        <video  controls>
+  <source src="video.mp4" type="video/mp4" alt="video of all the steps">
+  Your browser does not support video
+</video>
+
+        <br><br>
+        <b>Congratulations!</b> You have now combined multiple systems; movement, cameras, interaction, and design—to build your own car game in Unity but dont stop now keep exploring the possibilities with Unity and maby try to inporve the game systems.
+      </p>
+
+      </div>
+          <footer>
+      <div class="footerContainer">
+        <div class="footerTop">
+          <p>&copy; 2025 HBinstructions. All rights reserved.</p>
+          <nav class="footerNav">
+            <a href="/copyright.html">Copytight</a>
+            <a href="/contacts.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footerBottom">
+          <p>
+            Last updated: <span id="lastUpdate"></span> &nbsp; | &nbsp; Website
+            by
+            <a
+              href="https://hugo-benjaminsson-cv.netlify.app/om"
+              target="_blank"
+              rel="noopener"
+              >Hugo Benjaminsson</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
