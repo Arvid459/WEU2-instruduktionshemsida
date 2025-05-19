@@ -201,6 +201,17 @@
     <div class="nextInstructionContainer">
   <a href="instruction4.html" class="nextInstruction">Next Instruction</a>
 </div>
+<div id="chatContainer" class="chatHide">
+  <div id="chatToggle" onclick="toggleChat()">AI</div>
+
+  <div id="chatBox">
+    <h2>Unity Assistant</h2>
+    <textarea id="userPrompt" placeholder="Ask something about Unity..."></textarea>
+    <button onclick="sendPrompt()">Send</button>
+    <div id="response"></div>
+  </div>
+</div>
+
     <footer>
       <div class="footerContainer">
         <div class="footerTop">
