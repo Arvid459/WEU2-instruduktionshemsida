@@ -117,6 +117,7 @@ footer {
   font-family: sans-serif;
   font-size: 0.9em;
   height: var(--footerHeight);
+  z-index: 1000;
 }
 
 .footerContainer {
@@ -215,7 +216,34 @@ video {
   width: clamp(50px, 95%, 900px);
   height: auto;
   display: block;      
-  margin: 0 auto;  }
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+
+  .nextInstructionContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.nextInstruction {
+  background-color: var(--main-color);
+  color: white;
+  padding: 1.5em 14em;
+  border: none;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.nextInstruction:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
 
 /*   copyright   */
 
@@ -488,6 +516,7 @@ input:valid:not(:placeholder-shown) {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 5em;
   }
 
   .instruction {
@@ -523,5 +552,9 @@ input:valid:not(:placeholder-shown) {
   .instructionSection img {
     width: 95vw;
     height: auto;
+  }
+
+  .nextInstructionContainer{
+    margin-bottom: 5em;
   }
 }
