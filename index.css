@@ -245,6 +245,74 @@ video {
 }
 
 
+#chatContainer {
+  position: fixed;
+  right: 2em;
+  bottom: 7.5em;
+  z-index: 9999;
+  font-family: sans-serif;
+}
+
+#chatToggle {
+  width: 60px;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#chatBox {
+  display: none;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-top: 1em;
+}
+
+#chatBox h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+#chatBox textarea {
+  width: 100%;
+  height: 8em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#chatBox button {
+  padding: 0.5em 1em;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#chatBox button:hover{
+background-color: #007bff;
+}
+
+#response {
+  margin-top: 1em;
+  white-space: pre-wrap;
+  max-height: 150px;
+  overflow-y: auto;
+  font-size: 0.9em;
+}
+
+
 /*   copyright   */
 
 input,
@@ -557,4 +625,36 @@ input:valid:not(:placeholder-shown) {
   .nextInstructionContainer{
     margin-bottom: 5em;
   }
+
+  #chatContainer{
+    bottom: 11em !important;
+  }
+
+  #chatToggle{
+    width: 5em !important;
+    height: 5em !important;
+    font-size: 1.6em !important;
+
+  }
+
+  #chatBox h2{
+    font-size: 2em !important;
+  }
+
+  #chatBox {
+    width: 24em !important;
+  }
+
+  #chatBox textarea {
+    font-size: 2em !important;
+  }
+
+  #chatBox button{
+    padding: 1.2em 2.4em !important;
+  }
+
+  #response {
+    font-size: 1.5em !important;
+  }
 }
+

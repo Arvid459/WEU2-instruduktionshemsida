@@ -101,3 +101,30 @@ function copyCode(button) {
       console.error("Failed to copy: ", err);
     });
 }
+document.getElementById("toggleButton").addEventListener("click", () => {
+  const chatBox = document.getElementById("chatEllipse");
+  chatBox.classList.toggle("open");
+});
+
+
+
+function toggleChat() {
+  const chatBox = document.getElementById("chatBox");
+  chatBox.style.display = chatBox.style.display === "block" ? "none" : "block";
+}
+
+
+async function sendPrompt() {
+  const prompt = document.getElementById("userPrompt").value;
+  document.getElementById("response").innerText = "Thinking...";
+
+  const response = await fetch("http://127.0.0.1/something.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt })
+  });
+
+  const data = await response.json();
+  document.getElementById("response").innerText =
+    data.choices?.[0]?.message?.content || "No response.";
+}
