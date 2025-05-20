@@ -5,9 +5,9 @@
   --font-white-color: #f1f1f1;
   --content-color: #f9f9f9;
   --font-size: 4em;
-  --headerHight: 17vh;
+  --headerHeight: 17vh;
   --footerHeight: 5.3em;
-  --fonts: "Arial", Helvetika, Geneva, Verdana, sans-serif;
+  --fonts: Arial, Helvetica, Verdana, Sans-Serif;
 }
 
 .top {
@@ -29,7 +29,7 @@ header {
   background-color: var(--main-color);
   position: fixed;
   width: 100%;
-  height: var(--headerHight);
+  height: var(--headerHeight);
   top: 0;
   left: 0;
   z-index: 1000;
@@ -44,7 +44,7 @@ li {
 }
 
 body {
-  padding-top: calc(var(--headerHight));
+  padding-top: calc(var(--headerHeight));
   overflow-x: hidden;
   padding-bottom: calc(var(--footerHeight));
 }
@@ -552,7 +552,7 @@ input:valid:not(:placeholder-shown) {
 
 @media (orientation: portrait) {
   :root {
-    --headerHight: 10vh;
+    --headerHeight: 10vh;
   }
 
   h1 {
